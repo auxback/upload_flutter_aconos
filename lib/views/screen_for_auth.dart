@@ -31,6 +31,9 @@ class ScreenForAuth extends StatelessWidget {
   }
 }
 
+// Guardar como fazer a build video no youtube
+// vieo do github: Como enviar um projeto para o GitHub? (SEM ENROLAÇÃO)
+
 
 // Já que ScreenForAuth faz parte do contexto da aplicação, após logout há o 
 //notifyListners() e então isAuth muda e troca para a tela de login.
