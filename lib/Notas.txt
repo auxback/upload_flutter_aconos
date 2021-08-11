@@ -1,0 +1,14 @@
+  Assuntos que preciso registrar na minha documentação
+
+Anotações de changeNotifier na Grid sobre value
+
+Consumer (basicamente, serve para envolver só a parte do código que vai ser 
+mudado) que tem como parâmetro a adição de um contexto, o Provider da classe 
+(no caso, product) e um Widget, esse widget não sofre atualização e deve ser criado dentro do  
+child (dentro consumer) e podendo ser usado dentro do builder. Usar o Consumer pode otimizar 
+o aplicativo (principalmente, se for crescer com o tempo).
+ * aula Gerenciamento de Estado - Usando Consumer()
+
+ popupMenuButton
+
+* counter_provider (depois que fizer sentido)
