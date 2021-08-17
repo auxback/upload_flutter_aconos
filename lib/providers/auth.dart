@@ -14,6 +14,7 @@ class Auth with ChangeNotifier {
 
   DateTime _expiryDate;
 
+  // Preciso guardar info desse Timer.
   Timer _logoutTimer;
 
   String get userId {
