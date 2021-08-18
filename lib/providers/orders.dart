@@ -7,7 +7,7 @@ import 'package:shop/utils/constants.dart';
 
 class Order {
   final String id;
-  final double total;
+  final num total; //final double total;
   final List<CartItem> products;
   final DateTime date;
 

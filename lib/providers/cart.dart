@@ -7,7 +7,7 @@ class CartItem {
   final String title;
   final String productId;
   final int quantity;
-  final double price;
+  final num price; //final double price;
 
   CartItem({
     @required this.id,
